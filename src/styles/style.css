@@ -1,0 +1,53 @@
+:root {
+    --primary-color: hsl(214, 85%, 58%);
+    --text-color: hsl(0, 13%, 10%);
+    --bg-color: hsl(212, 27%, 90%);
+    --bg-card-color: hsl(0, 26%, 93%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+body.dark {
+    --text-color: hsl(0, 20%, 90%);
+    --bg-color: hsl(0, 3%, 12%);
+    --bg-card-color: hsl(0, 3%, 22%);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    padding: 0 1.5em;
+    background-color: var(--bg-card-color);
+}
+
+.switches {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toggle-theme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.toggle-theme__icon {
+    margin-right: 0.5em;
+    width: 20px;
+}
+
+.toggle-them__text {
+    font-size: 0.8rem;
+}
