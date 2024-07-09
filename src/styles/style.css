@@ -31,6 +31,7 @@ body.dark {
 }
 
 .switches {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,4 +51,37 @@ body.dark {
 
 .toggle-them__text {
     font-size: 0.8rem;
+}
+
+
+/* styles by conten */
+
+.main {
+    padding: 3em;
+}
+
+.footer {
+    padding: 3em;
+}
+
+.img {
+    width: 80px;
+    height: 40;
+}
+
+.center {
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links {
+    position: static;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
 }
